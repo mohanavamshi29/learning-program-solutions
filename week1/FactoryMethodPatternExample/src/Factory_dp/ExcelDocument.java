@@ -1,0 +1,10 @@
+package Factory_dp;
+
+public class ExcelDocument implements Document{
+
+	@Override
+	public void open() {
+		System.out.println("Excel Document opened");
+	}
+
+}
